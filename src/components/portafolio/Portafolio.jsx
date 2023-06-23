@@ -1,11 +1,11 @@
 import React from 'react';
 import './portafolio.css';
-import IMG1 from '../../assets/portfolio1.jpg';
-import IMG2 from '../../assets/portfolio2.jpg';
-import IMG3 from '../../assets/portfolio3.jpg';
-import IMG4 from '../../assets/portfolio4.jpg';
-import IMG5 from '../../assets/portfolio5.png';
-import IMG6 from '../../assets/portfolio6.jpg';
+// import IMG1 from '../../assets/portfolio1.jpg';
+// import IMG2 from '../../assets/portfolio2.jpg';
+// import IMG3 from '../../assets/portfolio3.jpg';
+// import IMG4 from '../../assets/portfolio4.jpg';
+// import IMG5 from '../../assets/portfolio5.png';
+// import IMG6 from '../../assets/portfolio6.jpg';
 import IMG7 from '../../assets/emmart.png'
 import IMG8 from '../../assets/tukimarket.png'
 import IMG9 from '../../assets/apimovie.png'
@@ -13,6 +13,7 @@ import IMG10 from '../../assets/qrgenerator.png'
 import IMG11 from '../../assets/calculator.png'
 import IMG12 from '../../assets/webresponsive.png'
 import IMG14 from '../../assets/id.png'
+import IMG15 from '../../assets/port.png'
 
 const Portafolio = () => {
     const data = [
@@ -60,6 +61,13 @@ const Portafolio = () => {
             image: IMG14,
             title: "Api Rest - NodeJs, Express, Typescript",
             github: "https://github.com/D3R5/Api-rest"
+        },
+        {
+            id: 8,
+            image: IMG15,
+            title: "My Portfolio - React",
+            github: 'https://github.com/D3R5/My-portfolio',
+            demo: 'https://my-portfolio-orpin-kappa.vercel.app'
         }
     ];
 
@@ -78,20 +86,20 @@ const Portafolio = () => {
                             <div className='portafolio__item-cta'>
                                 {id === 2 ? (
                                     <div>
-                                        <a href={github1} className='btn' target='_blank'>
+                                        <a href={github1} className='btn' target='_blank' rel='noreferrer'>
                                             Frontend
                                         </a>
-                                        <a href={github2} className='btn' target='_blank'>
+                                        <a href={github2} className='btn' target='_blank' rel='noreferrer'>
                                             Backend
                                         </a>
                                     </div>
                                 ) : (
-                                    <a href={github} className='btn' target='_blank'>
+                                    <a href={github} className='btn' target='_blank' rel='noreferrer'>
                                         Github
                                     </a>
                                 )}
                                 {demo && (
-                                    <a href={demo} className='btn btn-primary' target='_blank'>
+                                    <a href={demo} className='btn btn-primary' target='_blank' rel='noreferrer'>
                                         Live Demo
                                     </a>
                                 )}
