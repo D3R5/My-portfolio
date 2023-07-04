@@ -4,7 +4,7 @@
 }
 
 .container.testimonials__container {
-    width: 40%;
+    width: 75%;
     padding-bottom: 4rem;
 }
 
@@ -19,15 +19,22 @@
 
 .testimonial {
     background: var(--color-bg-variant);
-    text-align: center;
+    text-align:center;
     padding: 2rem;
     border-radius: 2rem;
     user-select: none;
 }
 
+.client_name {
+    color: var(--color-light);
+    font-size: 20px;
+    
+}
 .client__review {
     color: var(--color-light);
-    font-weight: 300;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: start;
     display: block;
     width: 80%;
     margin: 0.8rem auto;
