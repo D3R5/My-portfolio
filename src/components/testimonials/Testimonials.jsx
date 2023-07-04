@@ -1,9 +1,9 @@
 import React from 'react'
 import './testimonials.css'
-import AVTR1 from '../../assets/avatar1.jpg'
+import AVTR1 from '../../assets/user.png'
 import AVTR2 from '../../assets/education.png'
 import AVTR3 from '../../assets/hobbies.png'
-import AVTR4 from '../../assets/avatar4.jpg'
+import AVTR4 from '../../assets/skills.png'
 
 // IMPORT SWIPER CORE AND REQUIRE MODULES
 import { A11y, Navigation, Pagination, Scrollbar } from 'swiper'
