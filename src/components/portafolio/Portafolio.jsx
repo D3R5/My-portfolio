@@ -14,6 +14,7 @@ import IMG11 from '../../assets/calculator.png'
 import IMG12 from '../../assets/webresponsive.png'
 import IMG14 from '../../assets/id.png'
 import IMG15 from '../../assets/port.png'
+import IMG16 from '../../assets/instagram.png'
 
 const Portafolio = () => {
     const data = [
@@ -68,6 +69,13 @@ const Portafolio = () => {
             title: "My Portfolio - React",
             github: 'https://github.com/D3R5/My-portfolio',
             demo: 'https://my-portfolio-orpin-kappa.vercel.app'
+        },
+        {
+            id: 8,
+            image: IMG16,
+            title: "Instagram Clone - React/Redux/Firebase",
+            github: "https://github.com/D3R5/instagram-clone-react",
+            demo: "https://instagram-clone-ebon-gamma.vercel.app"
         }
     ];
 
