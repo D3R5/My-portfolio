@@ -35,48 +35,48 @@ const Portafolio = () => {
         },
         {
             id: 3,
-            image: IMG9,
-            title: 'Movie-Api',
-            github: 'https://github.com/D3R5/Movie-Api',
-        },
-        {
-            id: 4,
-            image: IMG10,
-            title: 'QR-Generator',
-            github: 'https://github.com/D3R5/Qr-Generator',
-        },
-        {
-            id: 5,
-            image: IMG11,
-            title: 'CalculatorReactJS',
-            github: 'https://github.com/D3R5/CalculatorReactJs',
-        },
-        {
-            id: 6,
-            image: IMG12,
-            title: 'Simple Web Responsive',
-            github: 'https://github.com/D3R5/WebResponsive',
-        },
-        {
-            id: 7,
-            image: IMG14,
-            title: "Api Rest - NodeJs, Express, Typescript",
-            github: "https://github.com/D3R5/Api-rest"
-        },
-        {
-            id: 8,
             image: IMG15,
             title: "My Portfolio - React",
             github: 'https://github.com/D3R5/My-portfolio',
             demo: 'https://my-portfolio-orpin-kappa.vercel.app'
         },
         {
-            id: 8,
+            id: 4,
             image: IMG16,
             title: "Instagram Clone - React/Redux/Firebase",
             github: "https://github.com/D3R5/instagram-clone-react",
             demo: "https://instagram-clone-ebon-gamma.vercel.app"
-        }
+        },
+        {
+            id: 5,
+            image: IMG9,
+            title: 'Movie-Api',
+            github: 'https://github.com/D3R5/Movie-Api',
+        },
+        {
+            id: 6,
+            image: IMG10,
+            title: 'QR-Generator',
+            github: 'https://github.com/D3R5/Qr-Generator',
+        },
+        {
+            id: 7,
+            image: IMG11,
+            title: 'CalculatorReactJS',
+            github: 'https://github.com/D3R5/CalculatorReactJs',
+        },
+        {
+            id: 8,
+            image: IMG12,
+            title: 'Simple Web Responsive',
+            github: 'https://github.com/D3R5/WebResponsive',
+        },
+        {
+            id: 9,
+            image: IMG14,
+            title: "Api Rest - NodeJs, Express, Typescript",
+            github: "https://github.com/D3R5/Api-rest"
+        },
     ];
 
     return (
