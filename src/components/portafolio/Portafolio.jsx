@@ -15,6 +15,9 @@ import IMG12 from '../../assets/webresponsive.png'
 import IMG14 from '../../assets/id.png'
 import IMG15 from '../../assets/port.png'
 import IMG16 from '../../assets/instagram.png'
+import IMG17 from '../../assets/monogram.png'
+
+
 
 const Portafolio = () => {
     const data = [
@@ -47,36 +50,45 @@ const Portafolio = () => {
             github: "https://github.com/D3R5/instagram-clone-react",
             demo: "https://instagram-clone-ebon-gamma.vercel.app"
         },
-        {
+         {
             id: 5,
+            image: IMG17,
+            title: "Monogram Console, first page (Clon)",
+            github: "https://github.com/D3R5/monogramConsoleClon",
+            demo: 'https://monogram-console-clon.vercel.app'
+        },
+          {
+            id: 6,
+            image: IMG14,
+            title: "Api Rest - NodeJs, Express, Typescript",
+            github: "https://github.com/D3R5/Api-rest"
+        },
+        {
+            id: 7,
             image: IMG9,
             title: 'Movie-Api',
             github: 'https://github.com/D3R5/Movie-Api',
         },
         {
-            id: 6,
+            id: 8,
             image: IMG10,
             title: 'QR-Generator',
             github: 'https://github.com/D3R5/Qr-Generator',
         },
         {
-            id: 7,
+            id: 9,
             image: IMG11,
             title: 'CalculatorReactJS',
             github: 'https://github.com/D3R5/CalculatorReactJs',
         },
         {
-            id: 8,
+            id: 10,
             image: IMG12,
             title: 'Simple Web Responsive',
             github: 'https://github.com/D3R5/WebResponsive',
         },
-        {
-            id: 9,
-            image: IMG14,
-            title: "Api Rest - NodeJs, Express, Typescript",
-            github: "https://github.com/D3R5/Api-rest"
-        },
+      
+       
     ];
 
     return (
