@@ -17,6 +17,10 @@ import IMG15 from "../../assets/port.png";
 import IMG16 from "../../assets/instagram.png";
 import IMG17 from "../../assets/monogram.png";
 import IMG18 from "../../assets/minecraftClon.png";
+import IMG19 from "../../assets/calculadoraIntellij.png";
+import IMG20 from "../../assets/listadoPersonasIntellij.png";
+import IMG21 from "../../assets/ventaPcIntellij.png";
+import IMG22 from "../../assets/catalogoPeliculasIntellij.png";
 
 const Portafolio = () => {
   const data = [
@@ -90,8 +94,32 @@ const Portafolio = () => {
       id: 11,
       image: IMG18,
       title: "Minecraft Clon React/ThreeJs",
-      github: "https://github.com/D3R5/minecraftClonJs"
-    }
+      github: "https://github.com/D3R5/minecraftClonJs",
+    },
+    {
+      id: 12,
+      image: IMG19,
+      title: "Calculator Intellij Java",
+      github: "https://github.com/D3R5/Intellij_Calculator",
+    },
+    {
+      id: 13,
+      image: IMG20,
+      title: "People List Intellij Java",
+      github: "https://github.com/D3R5/Intellij_PeopleList",
+    },
+    {
+      id: 14,
+      image: IMG21,
+      title: "Computer Sale Intellij Java",
+      github: "https://github.com/D3R5/Intellij_ComputersSale",
+    },
+    {
+      id: 15,
+      image: IMG22,
+      title: "Movies Intellij Java",
+      github: "https://github.com/D3R5/Intellij_Movies",
+    },
   ];
 
   return (
