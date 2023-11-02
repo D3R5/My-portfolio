@@ -1,7 +1,5 @@
 import React from 'react'
-import {BsLinkedin} from 'react-icons/bs'
-import {BsGithub} from 'react-icons/bs'
-import {BsInstagram} from 'react-icons/bs'
+import {BsLinkedin, BsGithub, BsInstagram} from 'react-icons/bs'
 import { CiYoutube } from 'react-icons/ci'
 
 
