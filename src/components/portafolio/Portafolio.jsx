@@ -16,6 +16,7 @@ import IMG14 from "../../assets/id.png";
 import IMG15 from "../../assets/port.png";
 import IMG16 from "../../assets/instagram.png";
 import IMG17 from "../../assets/monogram.png";
+import IMG18 from "../../assets/minecraftClon.png";
 
 const Portafolio = () => {
   const data = [
@@ -85,6 +86,12 @@ const Portafolio = () => {
       title: "Simple Web Responsive",
       github: "https://github.com/D3R5/WebResponsive",
     },
+    {
+      id: 11,
+      image: IMG18,
+      title: "Minecraft Clon React/ThreeJs",
+      github: "https://github.com/D3R5/minecraftClonJs"
+    }
   ];
 
   return (
