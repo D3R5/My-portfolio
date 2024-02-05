@@ -18,7 +18,7 @@ const Portafolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portafolio__item-cta">
-                {id === 2 ? (
+                {id === 4 ? (
                   <div>
                     <a
                       href={github1}

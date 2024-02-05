@@ -19,6 +19,10 @@ import IMG19 from "../../assets/calculadoraIntellij.png";
 import IMG20 from "../../assets/listadoPersonasIntellij.png";
 import IMG21 from "../../assets/ventaPcIntellij.png";
 import IMG22 from "../../assets/catalogoPeliculasIntellij.png";
+import IMG23 from "../../assets/homepage.png";
+import IMG24 from "../../assets/quiz1.png";
+import IMG25 from "../../assets/comingsoon.webp";
+
 
 const images = {
     img7: IMG7,
@@ -37,6 +41,9 @@ const images = {
     img20: IMG20,
     img21: IMG21,
     img22: IMG22,
+    img23: IMG23,
+    img24: IMG24,
+    img25: IMG25
 }
 
 export default images;
