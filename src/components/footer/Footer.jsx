@@ -2,6 +2,7 @@ import React from "react";
 import "./footer.css";
 import { FiInstagram, FiTwitter, FiTwitch, FiYoutube } from "react-icons/fi";
 import { CiYoutube } from "react-icons/ci";
+import { SlSocialSpotify } from "react-icons/sl";
 
 const Footer = () => {
   return (
@@ -45,6 +46,12 @@ const Footer = () => {
           target="_blank"
         >
           <CiYoutube />
+        </a>
+        <a
+          href="https://open.spotify.com/user/0pzqhq96shga6ykicylf5pn4m?si=cdc152e639f94bf6"
+          target="_blank"
+        >
+          <SlSocialSpotify  />
         </a>
       </div>
 
