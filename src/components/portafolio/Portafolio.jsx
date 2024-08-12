@@ -1,14 +1,18 @@
 import React from "react";
 import "./portafolio.css";
 import Data from "./Data";
+import { useTranslation } from "react-i18next";
+
 
 const Portafolio = () => {
+  const { t } = useTranslation();
+
   const data = Data();
   
   return (
     <section id="portafolio" className="portafolio">
-      <h5>My Recent Work</h5>
-      <h2>Portafolio</h2>
+      <h5>{t("my_recent_work")}</h5>
+      <h2>{t("portfolio_title")}</h2>
       <div className="container portafolio__container">
         {data.map(({ id, image, title, github, github1, github2, demo }) => {
           return (
@@ -54,7 +58,7 @@ const Portafolio = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Live Demo
+                    {t("live_demo")}
                   </a>
                 )}
               </div>
