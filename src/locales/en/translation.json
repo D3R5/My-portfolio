@@ -22,6 +22,12 @@
   "your_message": "Your Message",
   "your_name": "Your Full Name",
 
+  "_Comentario": "INFO PARA EXPERIENCE",
+  "skills": "What Skills I Have",
+  "my_experience": "My Experience",
+  "frontend_development": "Frontend Development",
+  "backend_development": "Backend Development",
+
   "_Comentario": "INFO PARA TESTIMONIALS",
   "extra": "Extra",
   "more_about_me": "More about me",
