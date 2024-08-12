@@ -14,7 +14,7 @@ const data = [
     image: images.img25,
     title: "MERN Blog App",
     github: "https://github.com/D3R5/mern-blog",
-    demo: "https://instagram-clone-ebon-gamma.vercel.app",
+    demo: "https://mern-blog-knme.onrender.com",
   },
   {
     id: 3,

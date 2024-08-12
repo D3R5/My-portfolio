@@ -21,7 +21,7 @@ import IMG21 from "../../assets/ventaPcIntellij.png";
 import IMG22 from "../../assets/catalogoPeliculasIntellij.png";
 import IMG23 from "../../assets/homepage.png";
 import IMG24 from "../../assets/quiz1.png";
-import IMG25 from "../../assets/comingsoon.webp";
+import IMG25 from "../../assets/mern_blog.png";
 
 
 const images = {
