@@ -7,8 +7,12 @@ import { BsWhatsapp } from "react-icons/bs";
 import emailjs from "emailjs-com";
 import Swal from "sweetalert2";
 
+import { useTranslation } from "react-i18next";
+
 const Contact = () => {
   const form = useRef();
+
+  const { t } = useTranslation();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -34,28 +38,30 @@ const Contact = () => {
 
   return (
     <section id="contact" className="contact">
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+      <h5>{t("get_in_touch")}</h5>
+      <h2>{t("contact_me")}</h2>
 
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
-            <h4>Email</h4>
+            <h4>{t("email")}</h4>
             <h6 className="email">diegoesteban.ders@gmail.com</h6>
-            <a href="mailto:diegoesteban.ders@gmail.com">Send a message</a>
+            <a href="mailto:diegoesteban.ders@gmail.com">{t("send_message")}</a>
           </article>
           <article className="contact__option">
             <FiInstagram className="contact__option-icon" />
             <h4>Instagram</h4>
             <h5>diegooders</h5>
-            <a href="https://www.instagram.com/diegooders/">Send a message</a>
+            <a href="https://www.instagram.com/diegooders/">
+              {t("send_message")}
+            </a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
             <h4>WhatsApp</h4>
             <h5>+56972893848</h5>
-            <a href="https://wa.me/56972893848">Send a message</a>
+            <a href="https://wa.me/56972893848">{t("send_message")}</a>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
@@ -63,18 +69,18 @@ const Contact = () => {
           <input
             type="text"
             name="name"
-            placeholder="Your Full Name"
+            placeholder={t("your_name")}
             required
           />
-          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="email" name="email" placeholder={t("send_message")} required />
           <textarea
             name="message"
             rows="7"
-            placeholder="Your Message"
+            placeholder={t("your_message")}
             required
           ></textarea>
           <button type="submit" className="btn btn-primary">
-            Send Message
+            {t("send_message")}
           </button>
         </form>
       </div>

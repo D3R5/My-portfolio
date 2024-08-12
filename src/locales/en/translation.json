@@ -13,6 +13,15 @@
   "SoyHenry_certificate": "SoyHenry Certificate",
   "EF_SET_certificate": "EF SET Certificate",
 
+  "_Comentario": "INFO PARA CONTACT",
+  "get_in_touch": "Get In Touch",
+  "contact_me": "Contact Me",
+  "email": "email",
+  "send_message": "Send a message",
+  "your_email": "Your Email",
+  "your_message": "Your Message",
+  "your_name": "Your Full Name",
+
   "_Comentario": "INFO PARA TESTIMONIALS",
   "extra": "Extra",
   "more_about_me": "More about me",
