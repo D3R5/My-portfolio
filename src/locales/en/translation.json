@@ -28,6 +28,15 @@
   "frontend_development": "Frontend Development",
   "backend_development": "Backend Development",
 
+  "_Comentario": "INFO PARA FOOTER",
+  "home": "Home",
+  "about": "About",
+  "experience": "Experience", 
+  "services": "Services",
+  "portfolio": "Portfolio",
+  "contact": "Contact",
+  "frame": "website inspired by",
+
   "_Comentario": "INFO PARA TESTIMONIALS",
   "extra": "Extra",
   "more_about_me": "More about me",

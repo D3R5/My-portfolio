@@ -3,8 +3,12 @@ import "./footer.css";
 import { FiInstagram, FiTwitter, FiTwitch, FiYoutube } from "react-icons/fi";
 import { CiYoutube } from "react-icons/ci";
 import { SlSocialSpotify } from "react-icons/sl";
+import { useTranslation } from "react-i18next";
+
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer>
       <a href="" className="footer__logo">
@@ -12,22 +16,22 @@ const Footer = () => {
       </a>
       <ul className="permalinks">
         <li>
-          <a href="#">Home</a>
+          <a href="#">{t("home")}</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#about">{t("about")}</a>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <a href="#experience">{t("experience")}</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a href="#services">{t("services")}</a>
         </li>
         <li>
-          <a href="#portafolio">Portafolio</a>
+          <a href="#portafolio">{t("portfolio")}</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact">{t("contact")}</a>
         </li>
       </ul>
 
@@ -57,7 +61,7 @@ const Footer = () => {
 
       <div className="footer__copyright">
         <small>
-          &copy; DERS. website inspired by{" "}
+          &copy; DERS. {t("frame")}{" "}
           <a href="https://www.youtube.com/watch?v=G-Cr00UYokU&t=1883s">
             EGATOR:
             <FiYoutube />
