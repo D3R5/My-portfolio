@@ -3,6 +3,7 @@ import "./about.css";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+import { useTranslation } from "react-i18next";
 
 //IMAGES
 import ME from "../../assets/yo1.jfif";
@@ -25,6 +26,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const About = () => {
+  const { t } = useTranslation();
+
   const data = [
     { foto: ME },
     { foto: ME3 },
@@ -41,8 +44,8 @@ const About = () => {
 
   return (
     <section id="about" className="about">
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <h5>{t("get_to_know")}</h5>
+      <h2>{t("about_me")}</h2>
       <div className="container about__container">
         <div className="about__me">
           <Swiper
@@ -67,27 +70,23 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <a>One year of work</a>
+              <h5>{t("experience")}</h5>
+              <a>{t("years_of_work")}</a>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
-              <h5>Contact</h5>
-              <a href="#contact">Go to contact</a>
+              <h5>{t("contact")}</h5>
+              <a href="#contact">{t("go_to_contact")}</a>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <a href="#portafolio">Go to portfolio</a>
+              <a href="#portafolio">{t("go_to_portfolio")}</a>
             </article>
           </div>
-          <p>
-            Hi, I'm Diego from Chile, a Full Stack developer with a passion for
-            technology. I am also a lover of music and sports. I like food and
-            trying new things. Also, I love my three happy little dogs.
-          </p>
+          <p>{t("description")}</p>
           <a href="#contact" className="btn btn-primary">
-            Let's Talk
+            {t("lets_talk")}
           </a>
           &nbsp;
           <a
@@ -96,7 +95,7 @@ const About = () => {
             className="btn btn-primary"
             rel="noreferrer"
           >
-            SoyHenry Certificate
+            {t("SoyHenry_certificate")}
           </a>
           &nbsp;
           <a
@@ -105,7 +104,7 @@ const About = () => {
             target="_blank"
             rel="noreferrer"
           >
-            EF SET Certificate
+            {t("EF_SET_certificate")}
           </a>
         </div>
       </div>

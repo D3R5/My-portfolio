@@ -1,13 +1,27 @@
 {
-    "extra": "Extra",
-    "more_about_me": "More about me",
-    "more_about_me_name": "More About Me",
-    "more_about_me_review": "My name is Diego and I characterize myself as a creative, curious and technology enthusiast person...",
-    "education_name": "Education",
-    "education_review": "Throughout my studies, I have dabbled in two areas related to technology...",
-    "hobbies_name": "Hobbies",
-    "hobbies_review": "I have several hobbies, maybe too many haha...",
-    "extra_skills_name": "Extra Skills",
-    "extra_skills_review": "•Photoshop •Lightroom •Figma •Reaper •Movavi Video Suit"
-  }
-  
+  "_Comentario": "INFO PARA EL ABOUT",
+  "get_to_know": "Get To Know",
+  "about_me": "About Me",
+  "experience": "Experience",
+  "years_of_work": "One year of work",
+  "contact": "Contact",
+  "go_to_contact": "Go to contact",
+  "projects": "Projects",
+  "go_to_portfolio": "Go to portfolio",
+  "description": "Hi, I'm Diego from Chile, a Full Stack developer with a passion for technology. I am also a lover of music and sports. I like food and trying new things. Also, I love my three happy little dogs.",
+  "lets_talk": "Let's Talk",
+  "SoyHenry_certificate": "SoyHenry Certificate",
+  "EF_SET_certificate": "EF SET Certificate",
+
+  "_Comentario": "INFO PARA TESTIMONIALS",
+  "extra": "Extra",
+  "more_about_me": "More about me",
+  "more_about_me_name": "More About Me",
+  "more_about_me_review": "My name is Diego and I characterize myself as a creative, curious and technology enthusiast person...",
+  "education_name": "Education",
+  "education_review": "Throughout my studies, I have dabbled in two areas related to technology...",
+  "hobbies_name": "Hobbies",
+  "hobbies_review": "I have several hobbies, maybe too many haha...",
+  "extra_skills_name": "Extra Skills",
+  "extra_skills_review": "•Photoshop •Lightroom •Figma •Reaper •Movavi Video Suit"
+}

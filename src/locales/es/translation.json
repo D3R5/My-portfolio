@@ -1,13 +1,27 @@
 {
-    "extra": "Extra",
-    "more_about_me": "Más sobre mí",
-    "more_about_me_name": "Más sobre mí",
-    "more_about_me_review": "Mi nombre es Diego y me caracterizo por ser una persona creativa, curiosa y entusiasta de la tecnología...",
-    "education_name": "Educación",
-    "education_review": "A lo largo de mis estudios, he incursionado en dos áreas relacionadas con la tecnología...",
-    "hobbies_name": "Pasatiempos",
-    "hobbies_review": "Tengo varios pasatiempos, tal vez demasiados, jaja...",
-    "extra_skills_name": "Habilidades Extra",
-    "extra_skills_review": "•Photoshop •Lightroom •Figma •Reaper •Movavi Video Suit"
-  }
-  
+  "_Comentario": "INFO PARA EL ABOUT",
+  "get_to_know": "Conoce más",
+  "about_me": "Sobre mí",
+  "experience": "Experiencia",
+  "years_of_work": "Un año de trabajo",
+  "contact": "Contacto",
+  "go_to_contact": "Ir a contacto",
+  "projects": "Proyectos",
+  "go_to_portfolio": "Ir al portafolio",
+  "description": "Hola, soy Diego de Chile, un desarrollador Full Stack con pasión por la tecnología. También soy amante de la música y los deportes. Me gusta la comida y probar cosas nuevas. Además, amo a mis tres pequeños perros felices.",
+  "lets_talk": "Hablemos",
+  "SoyHenry_certificate": "Certificado de SoyHenry",
+  "EF_SET_certificate": "Certificado de EF SET",
+
+  "_Comentario": "INFO PARA TESTIMONIALS",
+  "extra": "Extra",
+  "more_about_me": "Más sobre mí",
+  "more_about_me_name": "Más sobre mí",
+  "more_about_me_review": "Mi nombre es Diego y me caracterizo por ser una persona creativa, curiosa y entusiasta de la tecnología...",
+  "education_name": "Educación",
+  "education_review": "A lo largo de mis estudios, he incursionado en dos áreas relacionadas con la tecnología...",
+  "hobbies_name": "Pasatiempos",
+  "hobbies_review": "Tengo varios pasatiempos, tal vez demasiados, jaja...",
+  "extra_skills_name": "Habilidades Extra",
+  "extra_skills_review": "•Photoshop •Lightroom •Figma •Reaper •Movavi Video Suit"
+}
