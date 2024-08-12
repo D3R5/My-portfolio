@@ -37,6 +37,13 @@
   "contact": "Contacto",
   "frame": "sitio web inspirado por",
 
+  "_Comentario": "INFO PARA HEADER",
+  "console_log": "console.log('Hola Mundo!!🌎🖖'); // Soy:",
+  "title_fullstack": "Desarrollador Fullstack",
+  "scroll_down": "Hacia abajo",
+  "download_cv": "Descargar CV",
+  "lets_talk": "Hablemos",
+
   "_Comentario": "INFO PARA TESTIMONIALS",
   "extra": "Extra",
   "more_about_me": "Más sobre mí",
