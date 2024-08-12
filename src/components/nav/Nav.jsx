@@ -5,9 +5,13 @@ import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { HiOutlineDocumentDuplicate } from "react-icons/hi";
+import { useTranslation } from "react-i18next";
+
 
 
 const Nav = () => {
+  const { t } = useTranslation();
+
   const [activeNav, setActiveNav] = useState("#");
   const [showTooltip, setShowTooltip] = useState(false);
   const [showTooltip2, setShowTooltip2] = useState(false);
@@ -27,7 +31,7 @@ const Nav = () => {
         title="Home"
       >
         <AiOutlineHome />
-        {showTooltip && <span className="tooltip">Home</span>}
+        {showTooltip && <span className="tooltip">{t("home")}</span>}
       </a>
 
       <a
@@ -39,7 +43,7 @@ const Nav = () => {
         title="About"
       >
         <AiOutlineUser />
-        {showTooltip2 && <span className="tooltip2">About</span>}
+        {showTooltip2 && <span className="tooltip2">{t("about")}</span>}
       </a>
 
       <a
@@ -51,7 +55,7 @@ const Nav = () => {
         title="Experience"
       >
         <BiBook />
-        {showTooltip3 && <span className="tooltip3">Experience</span>}
+        {showTooltip3 && <span className="tooltip3">{t("experience")}</span>}
       </a>
 
       <a
@@ -63,7 +67,7 @@ const Nav = () => {
         title="Services"
       >
         <RiServiceLine />
-        {showTooltip4 && <span className="tooltip4">Services</span>}
+        {showTooltip4 && <span className="tooltip4">{t("services")}</span>}
       </a>
 
       <a
@@ -75,7 +79,7 @@ const Nav = () => {
         title="Portfolio"
       >
         <HiOutlineDocumentDuplicate />
-        {showTooltip5 && <span className="tooltip5">Portfolio</span>}
+        {showTooltip5 && <span className="tooltip5">{t("portfolio")}</span>}
       </a>
 
       <a
@@ -87,7 +91,7 @@ const Nav = () => {
         title="Contact"
       >
         <BiMessageSquareDetail />
-        {showTooltip6 && <span className="tooltip6">Contact</span>}
+        {showTooltip6 && <span className="tooltip6">{t("contact")}</span>}
       </a>
     </nav>
   );
