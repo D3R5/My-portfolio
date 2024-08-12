@@ -9,6 +9,7 @@ import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import { useTranslation } from 'react-i18next';
+import './index.css'; 
 
 const App = () => {
   const { i18n } = useTranslation();
@@ -19,8 +20,20 @@ const App = () => {
 
   return (
     <>
-      <button onClick={() => changeLanguage('en')}>English</button>
-      <button onClick={() => changeLanguage('es')}>Español</button>
+      <div className="language-switcher">
+        <button 
+          className={`btn-language ${i18n.language === 'en' ? 'active' : ''}`} 
+          onClick={() => changeLanguage('en')}
+        >
+          English
+        </button>
+        <button 
+          className={`btn-language ${i18n.language === 'es' ? 'active' : ''}`} 
+          onClick={() => changeLanguage('es')}
+        >
+          Español
+        </button>
+      </div>
       <Header />
       <Nav />
       <About />
