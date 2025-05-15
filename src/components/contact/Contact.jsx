@@ -47,21 +47,37 @@ const Contact = () => {
             <MdOutlineEmail className="contact__option-icon" />
             <h4>{t("email")}</h4>
             <h6 className="email">diegoesteban.ders@gmail.com</h6>
-            <a href="mailto:diegoesteban.ders@gmail.com">{t("send_message")}</a>
+            <a
+              href="mailto:diegoesteban.ders@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {t("send_message")}
+            </a>
           </article>
           <article className="contact__option">
             <FiInstagram className="contact__option-icon" />
             <h4>Instagram</h4>
             <h5>diegooders</h5>
-            <a href="https://www.instagram.com/diegooders/">
+            <a
+              href="https://www.instagram.com/diegooders/"
+              target="_blank"
+              rel="noreferrer"
+            >
               {t("send_message")}
             </a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
             <h4>WhatsApp</h4>
-            <h5>+56972893848</h5>
-            <a href="https://wa.me/56972893848">{t("send_message")}</a>
+            <h5>+56 9 2099 5401</h5>
+            <a
+              href="https://wa.me/56920995401"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {t("send_message")}
+            </a>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
@@ -72,7 +88,12 @@ const Contact = () => {
             placeholder={t("your_name")}
             required
           />
-          <input type="email" name="email" placeholder={t("send_message")} required />
+          <input
+            type="email"
+            name="email"
+            placeholder={t("send_message")}
+            required
+          />
           <textarea
             name="message"
             rows="7"

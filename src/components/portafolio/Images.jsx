@@ -22,6 +22,8 @@ import IMG22 from "../../assets/catalogoPeliculasIntellij.png";
 import IMG23 from "../../assets/homepage.png";
 import IMG24 from "../../assets/quiz1.png";
 import IMG25 from "../../assets/mern_blog.png";
+import IMG26 from "../../assets/rodotecnia.png";
+import IMG27 from "../../assets/coffeShop.png";
 
 
 const images = {
@@ -43,7 +45,9 @@ const images = {
     img22: IMG22,
     img23: IMG23,
     img24: IMG24,
-    img25: IMG25
+    img25: IMG25,
+    img26: IMG26,
+    img27: IMG27,
 }
 
 export default images;
