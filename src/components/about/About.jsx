@@ -4,7 +4,7 @@ import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import { useTranslation } from "react-i18next";
- 
+
 //IMAGES
 import ME from "../../assets/yo1.jfif";
 import ME3 from "../../assets/yo3.png";
@@ -17,6 +17,12 @@ import ME10 from "../../assets/yo10.png";
 import ME11 from "../../assets/yo11.png";
 import ME12 from "../../assets/yo12.jpg";
 import ME14 from "../../assets/yo14.png";
+import ME15 from "../../assets/locas.jfif";
+import ME16 from "../../assets/locas1.jfif";
+import ME17 from "../../assets/hummer.jfif";
+import ME18 from "../../assets/misha.jfif";
+import ME19 from "../../assets/misha1.jfif";
+
 
 // IMPORT SWIPER CORE AND REQUIRE MODULES
 import { A11y, Navigation, Pagination, Scrollbar } from "swiper";
@@ -35,11 +41,15 @@ const About = () => {
     { foto: ME6 },
     { foto: ME7 },
     { foto: ME8 },
-    { foto: ME9 },
     { foto: ME10 },
     { foto: ME11 },
     { foto: ME12 },
     { foto: ME14 },
+    { foto: ME15 },
+    { foto: ME16 },
+    { foto: ME17 },
+    { foto: ME18 },
+    { foto: ME19 },
   ];
 
   return (
@@ -85,27 +95,35 @@ const About = () => {
             </article>
           </div>
           <p>{t("description")}</p>
-          <a href="#contact" className="btn btn-primary">
-            {t("lets_talk")}
-          </a>
-          &nbsp;
-          <a
-            href="https://certificates.soyhenry.com/new-cert?id=f9fcaa0343034f7c1a09d407dc188a673c333505a1012ea51c8ecc7742ae2a1e"
-            target="_blank"
-            className="btn btn-primary"
-            rel="noreferrer"
-          >
-            {t("SoyHenry_certificate")}
-          </a>
-          &nbsp;
-          <a
-            href="https://www.efset.org/cert/6PsRkC"
-            className="btn btn-primary"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {t("EF_SET_certificate")}
-          </a>
+          <div className="about__buttons">
+            <a href="#contact" className="btn btn-primary">
+              {t("lets_talk")}
+            </a>
+            <a
+              href="https://certificates.soyhenry.com/new-cert?id=f9fcaa0343034f7c1a09d407dc188a673c333505a1012ea51c8ecc7742ae2a1e"
+              target="_blank"
+              className="btn btn-primary"
+              rel="noreferrer"
+            >
+              {t("SoyHenry_certificate")}
+            </a>
+            <a
+              href="https://www.efset.org/cert/6PsRkC"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {t("EF_SET_certificate")}
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1zVo8v5UxPCMbM9HcP7iYXKS0Qc2yELpJ/view?usp=sharing"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {t("Digital_Talent")}
+            </a>
+          </div>
         </div>
       </div>
     </section>
