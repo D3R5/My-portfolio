@@ -118,6 +118,24 @@ const data = [
     title: "Movies Intellij Java",
     github: "https://github.com/D3R5/Intellij_Movies",
   },
+  {
+    id: 19,
+    image: images.img26,
+    title: "1530 Store - Ecommerce",
+    demo: "https://tiendas1530.cl/",
+  },
+  {
+    id: 20,
+    image: images.img27,
+    title: "Todo Deportes Store - Ecommerce",
+    demo: "https://tododeportes.cl/",
+  },
+  {
+    id: 21,
+    image: images.img28,
+    title: "Osiris Shoes Store - Ecommerce",
+    demo: "https://osirisshoes.cl/",
+  },
 ];
 
 const Data = () => {
