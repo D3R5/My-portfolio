@@ -22,7 +22,6 @@ import IMG22 from "../../assets/catalogoPeliculasIntellij.png";
 import IMG23 from "../../assets/homepage.png";
 import IMG24 from "../../assets/quiz1.png";
 import IMG25 from "../../assets/mern_blog.png";
-<<<<<<< HEAD
 import IMG26 from "../../assets/1530store.png";
 import IMG27 from "../../assets/tododeportesstore.png";
 import IMG28 from "../../assets/osirisshoesstore.png";
@@ -51,34 +50,5 @@ const images = {
   img27: IMG27,
   img28: IMG28,
 };
-=======
-import IMG26 from "../../assets/rodotecnia.png";
-import IMG27 from "../../assets/coffeShop.png";
-
-
-const images = {
-    img7: IMG7,
-    img8: IMG8,
-    img9: IMG9,
-    img10: IMG10,
-    img11: IMG11,
-    img12: IMG12,
-    img14: IMG14,
-    img14: IMG14,
-    img15: IMG15,
-    img16: IMG16,
-    img17: IMG17,
-    img18: IMG18,
-    img19: IMG19,
-    img20: IMG20,
-    img21: IMG21,
-    img22: IMG22,
-    img23: IMG23,
-    img24: IMG24,
-    img25: IMG25,
-    img26: IMG26,
-    img27: IMG27,
-}
->>>>>>> f535e2c0d7b189aafc7d5cdf2bad258d6641a997
 
 export default images;
