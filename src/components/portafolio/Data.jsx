@@ -146,7 +146,7 @@ const data = [
   {
     id: 21,
     image: images.img28,
-    title: "Osiris Shoes Store - Ecommerce",
+    title: "Osiris Shoes Store - Ecommerce ",
     demo: "https://osirisshoes.cl/",
   },
 ];
