@@ -28,7 +28,7 @@ const data = [
   },
     {
     id: 5,
-    image: images.img27,
+    image: images.img30,
     title: "COFFEE Shop",
     github: "https://github.com/D3R5/COFFEE-shop",
     demo: "https://coffee-shop-kappa-eosin.vercel.app",
