@@ -26,7 +26,7 @@ import IMG26 from "../../assets/1530store.png";
 import IMG27 from "../../assets/tododeportesstore.png";
 import IMG28 from "../../assets/osirisshoesstore.png";
 import IMG29 from "../../assets/rodotecnia.png";
-import IMG30 from "../../assets/coffeeshop.png";
+import IMG30 from "../../assets/coffeeShop.png";
 
 const images = {
   img7: IMG7,
